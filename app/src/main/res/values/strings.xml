@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TorchLight</string>
+    <string name="device_busy">The Camera device is busy</string>
+    <string name="phone_is_busy">Phone is calling, cannot use the torch</string>
+</resources>
