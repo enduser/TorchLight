@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0"
-        android:src="@drawable/bg_off" />
+        android:src="@drawable/torch_off" />
 
  <!--   <ImageButton
         android:id="@+id/led_button"

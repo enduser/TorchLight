@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
         {
             TurnOnOffLed(LEDOFF);
             mLedOnOff = false;
-            mLedbg.setImageResource(R.drawable.bg_off);
+            mLedbg.setImageResource(R.drawable.torch_off);
         }
         if(mWakeLock.isHeld()){
             mWakeLock.release();
@@ -89,11 +89,11 @@ public class MainActivity extends AppCompatActivity {
         {
             TurnOnOffLed(LEDON);
             mLedOnOff = true;
-            mLedbg.setImageResource(R.drawable.bg_on);
+            mLedbg.setImageResource(R.drawable.torch_on);
         }else{
             TurnOnOffLed(LEDOFF);
             mLedOnOff = false;
-            mLedbg.setImageResource(R.drawable.bg_off);
+            mLedbg.setImageResource(R.drawable.torch_off);
         }
     }
 
